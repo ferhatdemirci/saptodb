@@ -1,4 +1,4 @@
-**ABAP & SAP Data Dictionary Tables**
+#ABAP & SAP Data Dictionary Tables
 DD01L	Domains
 DD02L/T/V	SAP Tables (se11)
 DD03L/T	Table Fields (View: DD03VT)
@@ -14,7 +14,7 @@ TRDIR	Programs / Sources (REPOSRC / D010SINF)
 TMDIR	Methods in a class
 D010TAB	Where Used: Report - Tables
 TAPLT	Program Application Long Texts
-SEOCLASS	ABAP Objects Class
+#SEOCLASS	ABAP Objects Class
 D020S/T	Screen Short Description
 TSE05	ABAP Editor insert commands
 DM42S	Table relationship (sd11)
@@ -26,7 +26,7 @@ PATH	Physical paths / file names
 SYST	ABAP System Fields (structure)
 VBMOD	Update function modules (Registered)
 VBDATA	Update data
-Text / Print / Spool / SAP Documentation
+#Text / Print / Spool / SAP Documentation
 STXFADM	Smart Forms: Administration
 STXB	Texts in non-SAP script format
 STXH	SAP script text file header
