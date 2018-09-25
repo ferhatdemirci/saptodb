@@ -1,11 +1,11 @@
 # saptodb
-Sap To Database data transfer application
+Sap To Database is simple data transfer application
 
-Help
+## Help
 
-Usage: SapToDb [xmlfilename] [options] <-dynamickey=dynamicvalue...n> 
+#### Usage: SapToDb [xmlfilename] [options] <-dynamickey=dynamicvalue...n> 
 
-Arguments:
+#### Arguments:
     -file=FileName.xml : xmlFileName :Aktarım yapılacak RFC fonksiyonu ve SqlServer tablosu bilgileri, map tablosu ve detayları buradan belirlenir.
     -dynamickey=dynamicvalue : bu bilgiler xml dosyası içerisinde import parametreleri arasında dynamicvalue değeri
                                 true olduğunda anlamlı olur. Eğer dynamicvalue= tru ise aynı import parametresinin adı 
@@ -16,7 +16,7 @@ Arguments:
         Not: dynamickey=dynamicvalue değer çifti sonsuz miktarda veri içerebilir. xml belgesindeki alan kadar veri olmalıdır.Aksi durumda
              xml belgesindeki default veri geçerli olacaktır.
           
-Options:
+#### Options:
     -outputtype = <çıktı_türü> : SAP den alınan verinin hangi çıktı türüne gönderileceğini belirler.
                                     varsayılan olarak 'screen' seçilidir. 
                     çıktı_türleri : screen, xmlfile, database 
