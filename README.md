@@ -1,6 +1,11 @@
 # saptodb
 Sap To Database is simple data transfer application
 
+# Kullanımı
+1. saptodb.exe.config dosyası içerisinde 
+
+
+
 ## Help
 
 #### Usage: SapToDb [xmlfilename] [options] <-dynamickey=dynamicvalue...n> 
