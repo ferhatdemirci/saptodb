@@ -1,6 +1,6 @@
 ## ABAP & SAP Data Dictionary Tables
 
-DD01L	Domains
+DD01L	Domains 
 DD02L/T/V	SAP Tables (se11)
 DD03L/T	Table Fields (View: DD03VT)
 DD04L/T	Data elements
