@@ -3,18 +3,18 @@
 
 # Kullanımı
 1. saptodb.exe.config dosyası içerisinde SAP.Middleware.Connector altında SAP bağlantı bilgilerinizi tanımlayınız. Ayrıca aynı dosya içerisinde connectionStrings altına verilerinizi aktarmak istediğiniz SqlServer bağlantı bilgilerinizi giriniz.
-Bu aşamadan sonra kullanıma hazırsınız. 
-  Not: SapToDb uygulaması doğru kurgulandığında RFC ve BAPI fonksiyonlarını çalıştırabilir niteliktedir. Bu nedenle sisteminizde değişiklik yapılmasını istemediğiniz durumlarda yukarıdaki kullanıcının readonly olmasına dikkat edilmelidir.
+Bu aşamadan sonra kullanıma hazırsınız.   
+  Not: SapToDb uygulaması doğru kurgulandığında RFC ve BAPI fonksiyonlarını çalıştırabilir niteliktedir. Bu nedenle sisteminizde değişiklik yapılmasını istemediğiniz durumlarda yukarıdaki kullanıcının readonly olmasına dikkat edilmelidir.  
   
 2. Uygulama xml dosyaları ile çalışmaktadır. Parametlerin büyük bir çoğunluğu xml dosyasından gelmektedir. Sablon*.xml dosyası incelendiğinde 5 ana gruptan oluştuğu görülür. Şablon dosyası içerisinde bölümlerin kullanım amaçları hakkında bilgi alabilirsiniz. 
-Xml Dosyası Yapısı:
-   SAP üzerindeki RFC fonksiyonunu kullanabilmek için aşağıdaki bilgilerinin bilinmesi gerekir.
-   *header -> rfcname:* RFC fonksiyonunun adı.
-   header -> SapExportTableName: Veri dönderecek Export Table name. 
-   SapImport: Fonksiyon çalıştırılmadan önce alacağı parametrelerin tanımı ve değeri örn:name="IERDAT" value="2018-09-21"
+Xml Dosyası Yapısı:  
+   SAP üzerindeki RFC fonksiyonunu kullanabilmek için aşağıdaki bilgilerinin bilinmesi gerekir.  
+   *header -> rfcname:* RFC fonksiyonunun adı.  
+   header -> SapExportTableName: Veri dönderecek Export Table name.   
+   SapImport: Fonksiyon çalıştırılmadan önce alacağı parametrelerin tanımı ve değeri örn:name="IERDAT" value="2018-09-21"  
    
-   MapField: SAP den dönecek veri setindeki kolon isimleri ve aktarmak istediğiniz SQLServer Tablosundaki kolonların map edildiği alandır.
-   dbOperation: Verilerin veri tabanına aktarılmadan önce veya sonra çalıştırılmasını istediğiniz sql komutlarının girildiği alandır.
+   MapField: SAP den dönecek veri setindeki kolon isimleri ve aktarmak istediğiniz SQLServer Tablosundaki kolonların map edildiği alandır.  
+   dbOperation: Verilerin veri tabanına aktarılmadan önce veya sonra çalıştırılmasını istediğiniz sql komutlarının girildiği alandır.  
    
 
 
