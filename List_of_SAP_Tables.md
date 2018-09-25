@@ -28,7 +28,6 @@
 | VBMOD                                           | Update function modules (Registered)                        | 
 | VBDATA                                          | Update data                                                 | 
 | Text / Print / Spool / SAP Documentation        |                                                             | 
-|-------------------------------------------------|-------------------------------------------------------------| 
 | STXFADM                                         | Smart Forms: Administration                                 | 
 | STXB                                            | Texts in non-SAP script format                              | 
 | STXH                                            | SAP script text file header                                 | 
