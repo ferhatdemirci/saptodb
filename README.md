@@ -1,9 +1,12 @@
 # saptodb
-Sap To Database is simple data transfer application
+ SapToDb Dashboard, İş Zekası yada Excel gibi uygulamalara hızlı, basit ve kullanışlı bir şekilde data çekmenize yarar. SAP üzerinde Rfc Fonksiyonlarını veya direk tabloları kullanarak veri alabilir. 
 
 # Kullanımı
-1. saptodb.exe.config dosyası içerisinde 
-
+1. saptodb.exe.config dosyası içerisinde SAP.Middleware.Connector altında SAP bağlantı bilgilerinizi tanımlayınız. Ayrıca aynı dosya içerisinde connectionStrings altına verilerinizi aktarmak istediğiniz SqlServer bağlantı bilgilerinizi giriniz.
+Bu aşamadan sonra kullanıma hazırsınız. 
+  Not: SapToDb uygulaması doğru kurgulandığında RFC ve BAPI fonksiyonlarını çalıştırabilir niteliktedir. Bu nedenle sisteminizde değişiklik yapılmasını istemediğiniz durumlarda yukarıdaki kullanıcının readonly olmasına dikkat edilmelidir.
+  
+2. Uygulama xml dosyaları ile çalışmaktadır. Parametlerin büyük bir çoğunluğu xml dosyasından gelmektedir. Sablon*.xml dosyası incelendiğinde 5 ana gruptan oluştuğu görülür. Şablon dosyası içerisinde bölümlerin kullanım amaçları hakkında bilgi alabilirsiniz. 
 
 
 ## Help
