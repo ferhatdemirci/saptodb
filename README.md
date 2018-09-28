@@ -1,6 +1,8 @@
 # saptodb
  SapToDb Dashboard, İş Zekası yada Excel gibi uygulamalara hızlı, basit ve kullanışlı şekilde data çekmenize yarar. SAP üzerinde Rfc Fonksiyonlarını veya direk tabloları kullanarak veri alabilir. 
 
+Eğitim Videosu :https://youtu.be/04F53SUiGw0
+
 # Kullanımı
 1. saptodb.exe.config dosyası içerisinde SAP.Middleware.Connector altında SAP bağlantı bilgilerinizi tanımlayınız. Ayrıca aynı dosya içerisinde connectionStrings altına verilerinizi aktarmak istediğiniz SqlServer bağlantı bilgilerinizi giriniz.
 Bu aşamadan sonra kullanıma hazırsınız.   
